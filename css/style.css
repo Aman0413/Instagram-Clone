@@ -2,22 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 body{
     font-family: 'Ubuntu', sans-serif;
+    
 }
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+
 main{
-    margin: auto;
+    width: 100%;
+   /* background-color: aqua; */
    
 }
-nav img{
-    width: 110px;
+
+.head-profile img{
+    width: 45px;
+    height: 45px;
 }
 .circle{
-    height: 41px;
-    width: 41px;
+    width: 61%;
+    height: auto;
     background-color: black;
     border-radius: 50%;
     display: inline-block;
@@ -26,12 +32,14 @@ nav img{
     font-size: 28px;
 }
 .img-circle{
-    width: 40px;
-    height: 40px;
+
+    width: 50%;
+    height: auto;
     border-radius: 50%;
 
 }
 nav{
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,22 +51,27 @@ nav{
 .edit-light{
     color: rgb(94, 92, 92);
 }
-.profile{
-    height: 91px;
-    width: 91px;
-    background-color: rgb(94, 89, 89);
-    border-radius: 50%;
-    display: inline-block;
-    
+.logo img{
+    width: 60px;
+    height: 50px;
 }
+nav{
+    margin-right: 50px;
+}
+    /* .profile{
+        height: auto;
+        width: 91px;
+        background-color: rgb(94, 89, 89);
+        border-radius: 50%;
+        display: inline-block;
+        
+    } */
 .profile img{
-    width: 90px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
 }
-/* .edit-prof{
-  width: 250px;
-  
-} */
+
 .edit-prof button{
     background-color: white;
     border-radius: 6px;
@@ -81,8 +94,8 @@ nav{
     
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 30px;
+    margin-left: 10px;
     margin-top: 20px;
 }
 .bio{
@@ -90,7 +103,7 @@ nav{
     flex-direction:column;
     justify-content: center;
     padding-top: 30px;
-    margin-left: 100px;
+    margin-left: 10px;
 }
 
 .light{
@@ -114,27 +127,33 @@ border-radius: 50%;
     padding-top: 20px;
     margin-top: 15px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 18px;
     margin-bottom: 30px;
+    margin-right: 80px;
 }
 .info-section{
     padding-top: 10px;
     margin: auto;
+    margin-left: 50px;
     width: 80%;
     display: flex;
    justify-content:space-evenly;
     align-items: center;
     margin-bottom: 10px;
+    gap: 50px;
 }
 .black{
     color: black;
 }
+
 .post-logo{
     display: flex;
     align-items: center;
     justify-content:space-evenly;
+    gap: 50px;
     padding-block: 10px;
 
 }
@@ -144,6 +163,7 @@ border-radius: 50%;
     justify-content: center;
 }
 .post-item img{
-    width: 200px;
+    width: 100%;
+    height: auto;
 
 }
